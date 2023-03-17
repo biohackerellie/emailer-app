@@ -70,7 +70,6 @@ def get_calendar_events(service, calendar_id,):
 def send_email(to, body, creds):
 
 	gmail_service = build_from_document(json.loads(requests.get(GMAIL_DOC).text), credentials=creds)
-
 	message = MIMEText(body)
 	message['to'] = to
 	message['subject'] = 'Weekly events'
