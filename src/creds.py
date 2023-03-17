@@ -1,5 +1,5 @@
 
-####Convert client secret to encoded binary
+####Convert client secret to encoded binary. I ended up not using it in the release code, but it could be useful for some
 
 import base64
 
